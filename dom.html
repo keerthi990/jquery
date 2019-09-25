@@ -1,0 +1,29 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container bg-primary">
+<h2>Menu</h2>
+<label>User Name</label>
+<input type="text" id="Name" class="form-control" value="name">
+<label>Email</label>
+<input type="text" id="Mail" class="form-control" value="mail">
+<button class="btn btn-danger" onclick="Text()" style="margin:30px;">click me</button>
+</div>
+<script>
+function Text(){
+$("h2").text("VBM INFO TECH")
+$("#Name").val("xyz")
+$("#Mail").val("abc@gmail.com")
+$(".container").css("background-color","red")
+$(".btn").css("background-color","blue")
+$("h2").hide()
+$("h2").show()
+}
+</script>
+</body>
+</html>
